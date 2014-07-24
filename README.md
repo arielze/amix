@@ -39,7 +39,7 @@ Enable reporting to Newrelic through statman for Plug based web servers
 
 ###Configuration
 
-1. Add Newrelic application to your app.conf file
+1. Add Newrelic application to your config.exs file
 
  ```elixir
  [

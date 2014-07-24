@@ -19,6 +19,7 @@ defmodule Amix.Mixfile do
   defp deps_by_env(_) do
     [
       {:plug, "~> 0.5.1"},
+      {:plug, github: "esl/lhttpc"},
       {:newrelic, github: "wooga/newrelic-erlang"}
     ]
   end
