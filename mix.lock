@@ -1,11 +1,8 @@
-%{"cowboy": {:git, "git://github.com/extend/cowboy.git", "99061274b6dc602614a07a8751ea3925950f6b80", []},
-  "cowlib": {:git, "git://github.com/extend/cowlib.git", "e2ffefe828b918486e2cd76e44c54ae9b62c616e", [ref: "0.6.2"]},
-  "decorators": {:git, "git://github.com/chrisavl/erlang_decorators.git", "b14949efc938157604447adc29a71913298fe67f", [branch: "master"]},
+%{"decorators": {:git, "git://github.com/chrisavl/erlang_decorators.git", "b14949efc938157604447adc29a71913298fe67f", [branch: "master"]},
   "edown": {:git, "git://github.com/esl/edown.git", "4d18dc4bec89c20c0ba8cab6884ce690ca606f4a", [ref: "HEAD"]},
   "jiffy": {:git, "https://github.com/davisp/jiffy.git", "99867af6e9bfec6bb80b10524d4dc27e39150dee", [ref: "master"]},
   "lhttpc": {:git, "git://github.com/oscarh/lhttpc.git", "5a906f6e2d6b60ae63787ce0cf532440236c0083", [ref: "master"]},
   "newrelic": {:git, "git://github.com/wooga/newrelic-erlang.git", "fa9634f14c9f2510ea4073ecd1e2cb3a9b10dce4", []},
   "parse_trans": {:git, "git://github.com/uwiger/parse_trans.git", "2adfbfcc17f9cd9da19134c0ecfba30052a26e25", [branch: "master"]},
   "plug": {:git, "git://github.com/elixir-lang/plug.git", "40d0a16e469c9b17c4fb48a225f711f75fb9354c", []},
-  "ranch": {:git, "git://github.com/extend/ranch.git", "3189ef2d47843945efc96c224963380462c33d40", [ref: "0.10.0"]},
   "statman": {:git, "git://github.com/knutin/statman.git", "d3820e209e0f164f83a3ae126045c683a666b2d2", [ref: "master"]}}
