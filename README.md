@@ -15,14 +15,18 @@ Enable reporting to Newrelic through statman for Plug based web servers
       ]
     end
     ```
+
 2. Add Amix.Supervisor to your supervision tree
+
   ```elixir
     children = [
       supervisor(Amix.Supervisor, [])
     ]
-    ```
+  ```
+
 3. Add Amix.Wrapper before the :math Plug
-    ```elixir
+
+  ```elixir
     defmodule MyApp do
       import Plug.Conn
       use Application
@@ -31,7 +35,7 @@ Enable reporting to Newrelic through statman for Plug based web servers
       plug Amix.Wrapper, [] 
       plug :match
       plug :dispatch
-```
+  ```
 
 ###Configuration
 
