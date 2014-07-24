@@ -7,6 +7,7 @@ defmodule Amix do
   end
 
   def start(_type, _args) do
+    {:ok, []}
   end
 end
 
