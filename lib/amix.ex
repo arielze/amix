@@ -7,7 +7,7 @@ defmodule Amix do
   end
 
   def start(_type, _args) do
-    {:ok, []}
+    Amix.Supervisor.start_link
   end
 end
 
