@@ -12,7 +12,7 @@ defmodule Amix.Supervisor do
 
   def init(:ok) do
     children = [
-      worker(:statman_server, [1000]),
+      #worker(:statman_server, [1000]),
       worker(:statman_aggregator, [])
     ]
 
