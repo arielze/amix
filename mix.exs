@@ -18,7 +18,7 @@ defmodule Amix.Mixfile do
   # Dependencies can be hex.pm packages:
   defp deps_by_env(_) do
     [
-      {:plug, github: "~> 0.5.1"},
+      {:plug, "~> 0.5.1"},
       {:newrelic, github: "wooga/newrelic-erlang"}
     ]
   end
