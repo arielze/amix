@@ -53,5 +53,6 @@ Enable reporting to Newrelic through statman for Plug based web servers
 And voila, you should see transactions in you application overview on Newrelic.
 The connector also reports responses with code >= 400 as error to Newrelic
 
+####Installation troubleshooting
 if you find yourself struggling with lhttpc compilation errors, you should remove non standard characters from this extension Author name.
 
