@@ -8,6 +8,16 @@ Enable reporting to Newrelic through statman for Plug based web servers
 
 1. Add amix to your `mix.exs` dependencies:
 
+  ```elixir
+    def application do
+      [
+        ...
+        applications: [ ... , :amix, ...]
+        ...
+      ]
+    end
+  ```
+
     ```elixir
     def deps do
       [
